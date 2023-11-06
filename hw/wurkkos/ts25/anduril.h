@@ -83,3 +83,9 @@
 #undef BLINK_AT_RAMP_MIDDLE
 #endif
 
+// Overrides
+#undef RAMP_SMOOTH_CEIL
+#define RAMP_SMOOTH_CEIL     110
+
+#undef RAMP_DISCRETE_CEIL
+#define RAMP_DISCRETE_CEIL   110
